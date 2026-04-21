@@ -1,0 +1,56 @@
+.block{
+    display: block;
+    color: aqua;
+    background-color: bisque;
+margin: 1px;
+padding: 5px;
+}                
+.inline{
+    display: inline;
+    color: blue;
+    background-color: rgb(175, 175, 34);
+    margin: 100px;
+    padding: 5px;
+}
+.inlineblock{
+    display: inline-block;
+    color: aquamarine;
+    background-color: brown;
+    height: 10px;
+    width: 50px;
+    margin: 100px;
+    padding: 15px;
+}
+/* used for  */
+.n{
+    display: none;
+    color: brown;
+    background-color: aqua;
+}
+/* it is used to display ntg */
+.m{
+    display: flex;
+    flex-direction: row;
+    
+    color: blue;
+    gap: 10px;
+    text-align: center;
+}
+/* flex used to align in row vise */
+.button:hover{
+    color: blue;
+    background-color: aqua;
+transform: scale(2.3);
+transform: rotate(30deg);
+}
+.v{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:1fr 2fr ;
+}
+.h{
+    color: rgb(37, 165, 165);
+    text-align: center;
+    background-color: aquamarine;
+
+}
