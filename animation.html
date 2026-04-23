@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            background-color: rgb(174, 174, 49);
+        }
+        .box{
+            background-color: aqua;
+            color: brown;
+        
+            width: 100px;
+            height: 100px;
+            color: rgb(37, 19, 19);
+            animation-name: box;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+            animation-timing-function: ease-in-out;
+            position: absolute;
+         }
+         @keyframes box{
+            0%{
+                left:0;
+                top:0;
+                background-color: aqua;
+                transform:rotate(0deg) ;
+                
+            }
+            50%{
+                left:50px;
+                top:100px;
+                background-color: blue;
+                transform: rotate(190deg);
+                   
+            }
+            80%{
+                left:0;
+                top:400px;
+                background-color: blueviolet;
+            }
+             100%{ 
+                left:200px;
+                top:100px;
+                background-color: bisque;
+                transform: rotate(360deg);
+                 
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box "><img src="https://tse1.mm.bing.net/th/id/OIP.1-HTFU6BDYlVeFYZtj7RcAHaEo?pid=Api&rs=1&c=1&qlt=95&w=171&h=106">love you</div>
+    </div>
+
+</body>
+</html>

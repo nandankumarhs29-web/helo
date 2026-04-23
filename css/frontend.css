@@ -10,8 +10,8 @@
     background-color: aqua;
     border: 2px;
 }
-p,h1{
-    color: black;
+p{
+    color: rgb(52, 48, 48);
 }
 #s1{
     color: blueviolet;
